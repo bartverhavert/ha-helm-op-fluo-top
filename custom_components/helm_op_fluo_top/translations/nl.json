@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Leerling toevoegen",
+        "description": "Geef de Helm Op Fluo Top-code van de leerling in (dezelfde code als op helmopfluotop.vsv.be/beloningen). Voeg per kind een aparte ingave toe.",
+        "data": {
+          "code": "Code"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Code niet meer geldig",
+        "description": "De opgeslagen code werkt niet meer, bijvoorbeeld omdat een nieuw schooljaar gestart is. Geef de huidige code in.",
+        "data": {
+          "code": "Code"
+        }
+      }
+    },
+    "error": {
+      "invalid_code": "Geen leerling gevonden voor deze code.",
+      "cannot_connect": "Kan de Helm Op Fluo Top-server niet bereiken.",
+      "unknown": "Onverwachte fout, kijk in de logs."
+    },
+    "abort": {
+      "already_configured": "Deze code is al toegevoegd.",
+      "reauth_successful": "Code bijgewerkt."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "points": {
+        "name": "Punten"
+      },
+      "badges": {
+        "name": "Badges"
+      },
+      "vouchers": {
+        "name": "Vouchers"
+      }
+    }
+  }
+}

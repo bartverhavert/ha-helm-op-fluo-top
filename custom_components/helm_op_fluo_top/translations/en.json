@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a pupil",
+        "description": "Enter the pupil's Helm Op Fluo Top code (the same code used on helmopfluotop.vsv.be/beloningen). Add one entry per child.",
+        "data": {
+          "code": "Code"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Code no longer valid",
+        "description": "The stored code stopped working, for example because a new school year started. Enter the current code.",
+        "data": {
+          "code": "Code"
+        }
+      }
+    },
+    "error": {
+      "invalid_code": "No pupil found for this code.",
+      "cannot_connect": "Could not reach the Helm Op Fluo Top server.",
+      "unknown": "Unexpected error, check the logs."
+    },
+    "abort": {
+      "already_configured": "This code is already added.",
+      "reauth_successful": "Code updated."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "points": {
+        "name": "Points"
+      },
+      "badges": {
+        "name": "Badges"
+      },
+      "vouchers": {
+        "name": "Vouchers"
+      }
+    }
+  }
+}

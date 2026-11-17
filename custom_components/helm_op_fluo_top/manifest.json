@@ -1,0 +1,12 @@
+{
+  "domain": "helm_op_fluo_top",
+  "name": "Helm Op Fluo Top",
+  "codeowners": ["@bartverhavert"],
+  "config_flow": true,
+  "documentation": "https://github.com/bartverhavert/ha-helm-op-fluo-top",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/bartverhavert/ha-helm-op-fluo-top/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
