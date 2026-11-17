@@ -1,7 +1,13 @@
 {
   "domain": "helm_op_fluo_top",
   "name": "Helm Op Fluo Top",
-  "codeowners": ["@bartverhavert"],
+  "categories": [
+    "local_services",
+    "vehicles_transport.bikes_scooters"
+  ],
+  "codeowners": [
+    "@bartverhavert"
+  ],
   "config_flow": true,
   "documentation": "https://github.com/bartverhavert/ha-helm-op-fluo-top",
   "integration_type": "service",
